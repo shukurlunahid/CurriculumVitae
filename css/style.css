@@ -1,0 +1,102 @@
+body{
+    background-color: #333333;
+    font-family: 'Roboto Mono', monospace;
+    font-size: .9rem;
+}
+.main{
+    padding: 4rem 1rem 4rem 3rem;
+    width: 68%;
+    height: 100%;
+    max-width: 1275px;
+    /* max-height: 2600px; */
+    background-color: #DEDEDE;
+    margin: 1rem auto;
+}
+.fullName h1{
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin: 0!important;
+}
+.contact a{
+    color: #212529; 
+    text-decoration: underline;
+}
+.content a{
+    color: #212529; 
+    text-decoration: underline;
+}
+.details p{
+    margin-bottom: 50px;
+}
+hr{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin: 40px 20px;
+}
+.content h3{
+    text-align: center;
+    color: #4a8e33;
+    margin-bottom: 20px;
+}
+article{
+    margin-bottom: 50px;
+}
+svg{
+    width: 1rem;
+}
+ul{
+    padding: 15px;
+}
+
+
+@media only screen and (min-device-width:992px) and (max-device-width: 1299px) {
+    .fullName h1{
+        font-size: 3.8rem;
+        line-height: 60px;
+        margin-top: 20px!important;
+    }
+}
+
+
+@media only screen and (max-device-width: 991px){
+    .fullName{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-device-width: 767px){
+    .main{
+        width: 95%;
+        margin: .5rem auto;
+    }
+    article, p {
+        text-align: justify!important;
+    }
+}
+
+
+@media only screen and (max-device-width: 575px){
+    hr{
+        margin: 30px 15px;
+    }
+    h5{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-device-width: 471px){
+    .main{
+        padding-left: 2rem;
+    }
+    .fullName h1 {
+        font-size: 3.5rem; 
+        line-height: 48px;
+        margin-top: 20px!important;
+    }
+}
