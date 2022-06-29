@@ -54,6 +54,10 @@ ul{
     padding: 15px;
 }
 
+.experience > div:not(:last-child){
+    margin-bottom: 50px;
+}
+
 
 @media only screen and (min-device-width:992px) and (max-device-width: 1299px) {
     .fullName h1{
